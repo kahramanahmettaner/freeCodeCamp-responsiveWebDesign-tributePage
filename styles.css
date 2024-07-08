@@ -1,0 +1,87 @@
+/* css reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* styles for page design */
+body, h1, h2, h3, h4, h5, h6  {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+body {
+    min-height: 100%;
+    padding: 2em .5em;
+}
+
+main {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 3em 1em;
+    border-radius: .5em;
+}
+
+main figure {
+    width: 100%;
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    width: 100%;
+}
+
+
+#tribute-info ul, #tribute-info > .quote {
+    width: 50%;
+    margin: 4em auto;
+}
+
+#tribute-info li, #tribute-info > .quote > p {
+    margin: 1em 0;
+}
+
+footer {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    gap: 1em;
+}
+
+footer a {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
