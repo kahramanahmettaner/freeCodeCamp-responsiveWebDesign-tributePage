@@ -60,10 +60,14 @@ img {
 }
 
 
-#tribute-info ul, #tribute-info > .quote, .external-link {
+#tribute-info ul, #tribute-info > .quote {
     max-width: 500px;
     width: 90%;
     margin: 4em auto;
+}
+
+.external-link {
+    width: 90%
 }
 
 #tribute-info li, #tribute-info > .quote > p {
