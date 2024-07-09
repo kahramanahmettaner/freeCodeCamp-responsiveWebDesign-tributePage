@@ -13,7 +13,7 @@ html {
 
 
 /* styles for page design */
-body, h1, h2, h3, h4, h5, h6  {
+body, h1, h2, h3, h4, h5, h6, p {
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
@@ -35,6 +35,17 @@ main {
     gap: 2em;
     padding: 3em 1em;
     border-radius: .5em;
+}
+
+main .title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .title-container p {
+    text-align: center;
 }
 
 main figure {
